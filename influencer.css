@@ -161,6 +161,7 @@ Banner styles-----
     align-items: center;
     gap: 30px;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 .about-description{
     width: 582px;
@@ -174,7 +175,7 @@ Banner styles-----
     width: 505px;
     height: 60px;
     font-size: 15px;
-    margin-bottom: 16px;
+    margin-bottom: 25px;
 }
 .about-description .button{
     width: 100px;
@@ -191,10 +192,38 @@ Banner styles-----
 .about-description .fa-solid{
     margin-right: .2px;
 }
-
-
-
-
+/* footer styles starts */
+.footer{
+    margin: 150px;
+    margin: 0 auto;
+    background-color: #111a3a;
+    padding: 20px;
+}
+.footer .footer-title{
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.footer .footer-info{
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footer .footer-description{
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footer .social-icons{
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer .social-icons i.fa-brands{
+    margin-right: 15px;
+    border-radius: 100px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.5em;
+}
 
 /* ---------------
    media queries
